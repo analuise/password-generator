@@ -12,19 +12,19 @@ const numers = "0123456789";
 const symbol = "~!@#$%^&*()_-+=|";
 
 function getLowercase() {
-    return lowerLetters[Math.floor(Math.random() * lowerLetters.lenght)];
+    return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
 }
 
 function getUppercase() {
-    return upperLetters[Math.floor(Math.random() * upperLetters.lenght)]
+    return upperLetters[Math.floor(Math.random() * upperLetters.length)]
 }
 
 function getNumber() {
-    return numbers[Math.floor(Math.random() * numbers.lenght)];
+    return numers[Math.floor(Math.random() * numers.length)];
 }
 
 function getSymbol() {
-    return symbol[Math.floor(Math.random() * symbol.lenght)];
+    return symbol[Math.floor(Math.random() * symbol.length)];
 }
 
 function generatePassword() {
