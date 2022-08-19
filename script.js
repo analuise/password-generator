@@ -52,7 +52,7 @@ function generateX() {
         xs.push(getSymbol());
     }
     if (xs.length === 0) return "";
-    return sx[Math.floor(Math.random() * xs.length)];
+    return xs[Math.floor(Math.random() * xs.length)];
 }
 
 generateEl.addEventListener("click", generatePassword);
