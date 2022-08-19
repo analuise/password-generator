@@ -46,10 +46,10 @@ function generateX() {
      xs.push(getLowercase());
     }
     if (numberEl.checked) {
-        xs.push(getNumber());
+     xs.push(getNumber());
     }
     if (symbolEl.checked) {
-        xs.push(getSymbol());
+     xs.push(getSymbol());
     }
     if (xs.length === 0) return "";
     return xs[Math.floor(Math.random() * xs.length)];
