@@ -51,7 +51,7 @@ function generateX() {
     if (symbolEl.checked) {
         xs.push(getSymbol());
     }
-    if (xs.lenght === 0) return "";
+    if (xs.length === 0) return "";
     return sx[Math.floor(Math.random() * xs.length)];
 }
 
