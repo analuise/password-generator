@@ -8,7 +8,7 @@ const generateEl = document.getElementById("generate");
 const numberEl = document.getElementById("number");
 const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
-const numers = "0123456789";
+const numbers = "0123456789";
 const symbol = "~!@#$%^&*()_-+=|";
 
 function getLowercase() {
@@ -20,7 +20,7 @@ function getUppercase() {
 }
 
 function getNumber() {
-    return numers[Math.floor(Math.random() * numers.length)];
+    return numbers[Math.floor(Math.random() * numbers.length)];
 }
 
 function getSymbol() {
